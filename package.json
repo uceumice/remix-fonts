@@ -1,0 +1,41 @@
+{
+    "name": "@remix.w/fonts",
+    "main": "./out/index.js",
+    "types": "./out/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^3.18.0",
+        "@config/typescript": "workspace:*",
+        "@remix-run/cloudflare": "^1.7.5",
+        "@remix-run/dev": "^1.7.5",
+        "@remix.w/types": "workspace:*",
+        "@types/node": "^18.11.9",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "author": {
+        "name": "uceumice",
+        "url": "https://uceumice.com",
+        "email": "hi@uceumice.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uceumice/remix.w-fonts"
+    },
+    "keywords": [
+        "remix",
+        "remix.run",
+        "react",
+        "fonts"
+    ],
+    "license": "MIT"
+}
